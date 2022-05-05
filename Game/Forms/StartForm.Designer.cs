@@ -1,7 +1,7 @@
 ﻿
 namespace Game.Forms
 {
-	partial class Splash
+	partial class StartForm
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -29,21 +29,10 @@ namespace Game.Forms
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.SuspendLayout();
-			// 
-			// Splash
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+			this.components = new System.ComponentModel.Container();
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-			this.MaximizeBox = false;
-			this.MinimizeBox = false;
-			this.Name = "Splash";
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Splash";
-			this.ResumeLayout(false);
-
+			this.Text = "Start";
 		}
 
 		#endregion
